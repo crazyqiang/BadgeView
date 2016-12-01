@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BadgeViewPro">
+        <attr name="tip_position" format="integer">
+            <enum name="left_top" value="0" />
+            <enum name="right_top" value="1" />
+            <enum name="center" value="2" />
+            <enum name="left_down" value="3" />
+            <enum name="right_down" value="4" />
+        </attr>
+        <attr name="shape" format="integer">
+            <enum name="shape_circle" value="0" />
+            <enum name="shape_oval" value="1" />
+            <enum name="shape_rectangle" value="2" />
+            <enum name="shape_round_rectangle" value="3" />
+        </attr>
+        <attr name="strSize" format="dimension" />
+        <attr name="textColor" format="color" />
+        <attr name="shapeText" format="string" />
+        <attr name="bgColor" format="color" />
+    </declare-styleable>
+</resources>

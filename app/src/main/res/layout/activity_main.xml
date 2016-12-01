@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_recycle_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="vertical" />
+
+    <!--<org.ninetripods.mq.badgelibrary.BadgeViewPro-->
+    <!--android:id="@+id/bv_view"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:background="@color/horizental_line"-->
+    <!--android:gravity="center"-->
+    <!--android:text="99+"-->
+    <!--android:textColor="#ffffff"-->
+    <!--android:textSize="10sp"-->
+    <!--android:visibility="gone"-->
+    <!--app:bgColor="@color/colorAccent"-->
+    <!--app:shape="shape_circle" />-->
+
+    <!--<View-->
+    <!--android:id="@+id/iv_img"-->
+    <!--android:layout_width="50dp"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:background="#999"-->
+    <!--android:contentDescription="@string/app_name"-->
+    <!--android:visibility="gone" />-->
+
+    <!--&lt;!&ndash;<FrameLayout&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_below="@id/iv_img"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_centerHorizontal="true"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_marginTop="20dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:background="@color/green">&ndash;&gt;-->
+
+    <!--<org.ninetripods.mq.badgeviewpro.CustomImg-->
+    <!--android:id="@+id/iv_icon"-->
+    <!--android:layout_width="60dp"-->
+    <!--android:layout_height="60dp"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:background="@color/green"-->
+    <!--android:src="@mipmap/ic_launcher" />-->
+    <!--&lt;!&ndash;</FrameLayout>&ndash;&gt;-->
+
+</RelativeLayout>

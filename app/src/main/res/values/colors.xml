@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="yellow">#FF4081</color>
+
+    <color name="praised_num">#ff5b0f</color>
+    <color name="wallet_grey">#a29d99</color>
+    <color name="wallet_green">#88dc4d</color>
+    <color name="wallet_title_color">#3f454f</color>
+    <!-- LIST BORDER COLOR -->
+    <color name="rounded_container_border">#ffb7babb</color>
+    <color name="me_background_color">#f0f0f0</color>
+    <color name="color_4e3d31">#4e3d31</color>
+    <color name="color_381902">#381902</color>
+    <color name="image_pressed_color">#70000000</color>
+    <color name="line_2.0_color">#dddddd</color>
+    <color name="send_dongtai_background_color">#f2f2f2</color>
+    <color name="efefef">#efefef</color>
+    <color name="fafafa_2.2">#fafafa</color>
+    <color name="send_dongtai_reply_background_color">#f9f9f9</color>
+    <color name="signup_background_color">#f5f5f5</color>
+    <!-- ITEM BACKGROUND COLOR - STATE - DEFAULT -->
+    <color name="base_start_color_default">#FFFFFF</color>
+    <color name="base_end_color_default">#FFFFFF</color>
+    <!-- ITEM BACKGROUND COLOR - STATE - DEFAULT -->
+    <color name="base_start_color_gray">#e8e9eb</color>
+    <!-- ITEM BACKGROUND COLOR - STATE - PRESSED -->
+    <color name="base_start_color_pressed">#fffcfcfc</color>
+    <color name="base_end_color_pressed">#ffd7d7d7</color>
+    <color name="me_item_color_pressed">#ff5e5e5e</color>
+
+    <!-- ITEM TEXT COLORS - STATES - PRESSED AND DEFAULT -->
+    <color name="text_color_default">#000000</color>
+    <color name="text_color_pressed">#ffffff</color>
+    <color name="text_color_pressed_green">#9AE96C</color>
+
+    <color name="horizental_line">#e5e5e5</color>
+    <color name="hint_line_corlor">#dcdcdc</color>
+    <color name="indicator_selector_color">#8bdf13</color>
+    <color name="main_background_color">#eeeeee</color>
+    <color name="title_bar_title_color">#000000</color>
+    <color name="title_bar_background_color">#ffffff</color>
+    <color name="hint_color">#dadada</color>
+    <color name="grey_color">#505050</color>
+    <color name="grey_thin_color">#9e9e9e</color>
+    <color name="button_color">#A2E542</color>
+    <color name="button_color_press">#6FB30D</color>
+    <color name="tv_zan">#3676bd</color>
+    <color name="button_welcome">#CACACA</color>
+    <color name="red_text_color">#ff5a00</color>
+    <color name="popo_num_background">#F46C09</color>
+    <color name="text_purple">#F46C09</color>
+    <color name="text_purple1">#791010</color>
+    <!--<color name="popo_num_background">#F46C09</color>-->
+    <color name="common_top_bar_blue">#4ebcd3</color>
+    <color name="btn_login_normal">#00acff</color>
+    <color name="btn_login_pressed">#46678d</color>
+    <color name="btn_logout_normal">#d33f3f</color>
+    <color name="btn_logout_pressed">#DA5A4D</color>
+    <color name="btn_register_normal">#ffffff</color>
+    <color name="btn_register_pressed">#00acff</color>
+    <color name="common_bottom_bar_normal_bg">#2d2f31</color>
+    <color name="common_bottom_bar_selected_bg">#161718</color>
+    <color name="common_botton_bar_blue">#2ea7e0</color>
+    <color name="common_bg">#fcfcfc</color>
+    <color name="btn_pressed_green_solid">#B6DA53</color>
+    <color name="divider_list">#d4d4d4</color>
+    <color name="top_bar_normal_bg">#00acff</color>
+    <color name="error_item_color">#F6EBE6</color>
+    <color name="bottom_bar_normal_bg">#2D2F31</color>
+    <color name="bottom_text_color_normal">#ffffff</color>
+    <color name="btn_white_normal">#f7f8f8</color>
+    <color name="btn_white_pressed">#b5b5b6</color>
+    <color name="btn_green_noraml">#A2E542</color>
+    <color name="btn_green_guide">#88A2E542</color>
+    <color name="btn_green_pressed">#6FB30D</color>
+    <color name="btn_gray_normal">#c0c0c0</color>
+    <color name="gray">#88c3c3c3</color>
+    <color name="btn_gray_pressed_status">#b5b5b6</color>
+    <color name="btn_gray_pressed">#666667</color>
+    <color name="btn_blue_normal">#1e90ff</color>
+    <color name="btn_blue_pressed">#0066FF</color>
+    <color name="orange">#FFA500</color>
+    <color name="gray_pressed">#b5b5b6</color>
+    <color name="gray_normal">#666667</color>
+    <color name="grid_state_pressed">#1Affffff</color>
+    <color name="grid_state_focused">#80000000</color>
+    <color name="voip_interface_text_color">#bababa</color>
+    <color name="black_deep">#FF000000</color>
+    <color name="btn_answer_pressed">#4ebcd3</color>
+    <color name="btn_answer_normal">#2dafa3</color>
+    <color name="transparent">#00000000</color>
+    <color name="light_black">#666666</color>
+    <color name="line_color">#505050</color>
+    <color name="light_gray">#ffececec</color>
+    <color name="time_color">#ff5a00</color>
+    <color name="province_line_border">#C7C7C7</color>
+    <color name="repair_line_color">#a2e542</color>
+    <color name="blue_color">#377caf</color>
+    <color name="pure_yellow_color">#bf9e5a</color>
+    <color name="word_normal_color">#282828</color>
+    <color name="bbbbbb_2.3">#bbbbbb</color>
+    <color name="f3f3f3_2.4">#f3f3f3</color>
+    <color name="reply_color">#666666</color>
+    <color name="green_deep_color">#6fb30d</color>
+    <item name="gray_holo_dark" type="color">#ff464646</item>
+
+    <color name="text_red_two">#ea2226</color>
+    <color name="background_tab_pressed">#ffffffff</color>
+    <color name="cancel_color">#ff3c00</color>
+
+    <item name="gray_holo_light" type="color">#ffd0d0d0</item>
+    <color name="light_grey_color">#8e8e8e</color>
+    <!-- 微信-->
+    <color name="navpage">#FFE1E8EB</color>
+    <!--微信结束-->
+    <color name="round_corner_filter_border">#ff000000</color>
+    <color name="profile_avater_cover_selected">#7f000000</color>
+    <color name="profile_avater_cover_normal">#00000000</color>
+    <color name="round_corner_filter_green">#ff66ccff</color>
+    <color name="result_points">#c099cc00</color>
+    <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="viewfinder_laser">#a2e542</color>
+    <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffbd21</color>
+    <color name="cccccc">#cccccc</color>
+    <color name="base">#FFFFFB</color>
+    <color name="overlay">#AA1C1C1C</color>
+    <color name="text">#1C1C1C</color>
+    <color name="handle">#86C166</color>
+    <color name="frame">#86C166</color>
+    <color name="guide">#AA86C166</color>
+    <color name="menu_bg">#FFFFFB</color>
+    <color name="translucent_background">#80000000</color>
+    <color name="chat_list_item_time_bg">#CECECE</color>
+    <color name="chat_list_item_name_color">#505050</color>
+    <color name="chat_list_item_live_bg">#F49092</color>
+    <color name="msg_chat_bg">#eceff4</color>
+    <color name="chat_list_bg">#EBEBEB</color>
+    <color name="chat_bottom_bg">#FAFAFA</color>
+    <color name="chat_bottom_split_line_color">#E1E1E1</color>
+
+    <!-- 2.0版本添加颜色值-->
+    <color name="grey8">#888888</color>
+    <color name="grey_d">#dddddd</color>
+    <color name="grey_ftow">#f2f2f2</color>
+    <color name="color_tel">#2f77b8</color>
+    <!--apk下载-->
+    <color name="orange_salmon">#EC5745</color>
+    <color name="red_wine">#A6463A</color>
+    <color name="red_wood">#4B1D17</color>
+    <color name="green_grass">#109121</color>
+
+    <!--小视频-->
+    <color name="darkgray">#404040ff</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#0ff0ff</color>
+    <color name="lightgray">#c0c0c0ff</color>
+    <color name="red_3">#ff3939</color>
+    <color name="blue">#ff0f81d9</color>
+    <color name="text_gray2">#ffC3C3C3</color>
+    <color name="magenta">#ff6699ff</color>
+    <color name="cyan">#66ffffff</color>
+    <color name="transparent_black">#ff000000</color>
+    <color name="background_dark">#f0f0f0</color>
+    <color name="camera_bg">#2c2c2c</color>
+    <color name="camera_progress">#2980B9</color>
+    <color name="camera_progress_split">#005084</color>
+    <color name="camera_progress_three">#24ff00</color>
+    <color name="camera_progress_overflow">#1b5d89</color>
+    <color name="camera_theme_selected_bgcolor">#2980B9</color>
+    <color name="camera_bottom_press_bg">#1b1c1f</color>
+    <color name="title_background_color">#fcb840</color>
+    <color name="camera_progress_delete">#f68b2b</color>
+    <color name="translucent_background_80">#CC000000</color>
+    <color name="translucent_background_50">#7f000000</color>
+    <color name="transparent_black_40">#66000000</color>
+    <color name="transparent_black_85">#DA000000</color>
+    <color name="transparent_black_30">#4D000000</color>
+    <color name="transparent2">#50000000</color>
+</resources>

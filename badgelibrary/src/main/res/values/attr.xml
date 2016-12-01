@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BadgeViewPro">
+        <attr name="shape" format="integer">
+            <enum name="shape_circle" value="0" />
+            <enum name="shape_oval" value="1" />
+            <enum name="shape_rectangle" value="2" />
+            <enum name="shape_round_rectangle" value="3" />
+        </attr>
+        <attr name="textSize" format="dimension" />
+        <attr name="textColor" format="color" />
+        <attr name="bgColor" format="color" />
+        <attr name="shape_type" format="integer" />
+    </declare-styleable>
+</resources>
