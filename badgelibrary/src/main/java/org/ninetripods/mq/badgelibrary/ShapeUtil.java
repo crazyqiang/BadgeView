@@ -18,9 +18,9 @@ class ShapeUtil {
      * 设置圆角矩形背景
      *
      * @param mContext   Context
-     * @param view       目标View
-     * @param dipRadius  圆角半径
-     * @param badgeColor 背景色
+     * @param view       TargetView
+     * @param dipRadius  circular radius
+     * @param badgeColor background color
      */
     static void setRoundRectBg(Context mContext, View view, int dipRadius, int badgeColor) {
         int radius = TypefaceUtil.dip2Px(mContext, dipRadius);
@@ -34,8 +34,8 @@ class ShapeUtil {
     /**
      * 设置矩形背景
      *
-     * @param view       目标View
-     * @param badgeColor 背景色
+     * @param view       TargetView
+     * @param badgeColor background color
      */
     static void setRectBg(View view, int badgeColor) {
         RectShape rectShape = new RectShape();
@@ -48,8 +48,8 @@ class ShapeUtil {
     /**
      * 设置椭圆背景
      *
-     * @param view       目标View
-     * @param badgeColor 背景色
+     * @param view       TargetView
+     * @param badgeColor background color
      */
     static void setOvalBg(View view, int badgeColor) {
         OvalShape ovalShape = new OvalShape();
@@ -65,8 +65,8 @@ class ShapeUtil {
     /**
      * 设置椭圆背景
      *
-     * @param view       目标View
-     * @param badgeColor 背景色
+     * @param view       TargetView
+     * @param badgeColor background color
      */
     static void setCircleBg(View view, int badgeColor) {
         view.setBackgroundDrawable(new CircleDrawable(badgeColor));

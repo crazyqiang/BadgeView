@@ -56,7 +56,7 @@ public class BadgeViewPro extends TextView {
     private void init(Context context, AttributeSet attrs) {
         gravity = Gravity.END | Gravity.TOP;
         this.mContext = context;
-        //获得自定义属性
+        //get custom attribute
         TypedArray ta = context.obtainStyledAttributes(attrs, R.styleable.BadgeViewPro);
         bgColor = ta.getColor(R.styleable.BadgeViewPro_bgColor, Color.RED);
         textColor = ta.getColor(R.styleable.BadgeViewPro_textColor, Color.WHITE);
@@ -172,7 +172,7 @@ public class BadgeViewPro extends TextView {
     }
 
     /**
-     * 设置文本背景的位置
+     * get text background
      *
      * @param mGravity Gravity
      * @return BadgeViewPro
@@ -219,13 +219,13 @@ public class BadgeViewPro extends TextView {
                     setParams(target, parentContainer);
                     parentContainer.addView(BadgeViewPro.this);
                 } else if (target.getParent() instanceof ViewGroup) {
-                    //在ViewGroup（TargetView的外层）中去掉TargetView
+                    //find TargetView's parent and remove TargetView from parent
                     ViewGroup parentContainer = (ViewGroup) target.getParent();
                     int groupIndex = parentContainer.indexOfChild(target);
                     parentContainer.removeView(target);
-                    // 在TargetView外层添加一个新的FrameLayout
+                    // new a FrameLayout that contains TargetView
                     FrameLayout pContainer = new FrameLayout(getContext());
-                    //设置targetView和父View的LayoutParams
+                    //set LayoutParams
                     setParams(target, pContainer);
                     pContainer.addView(target);
                     pContainer.addView(BadgeViewPro.this);
